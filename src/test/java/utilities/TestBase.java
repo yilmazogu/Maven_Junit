@@ -24,6 +24,19 @@ public abstract class TestBase {
         driver.quit();
     }
 
+
+    //MULTIPLE WINDOW
+    public static void switchToWindow(String targetTitle) {
+        String origin = driver.getWindowHandle();
+        for (String handle : driver.getWindowHandles()) {
+            driver.switchTo().window(handle);
+            if (driver.getTitle().equals(targetTitle)) {
+                return;
+            }
+        }
+        driver.switchTo().window(origin);
+    }
+
 /*(){
         //techproeducation ana sayfasına git ve title'ın "Bootcamps" icerdigini test edin.
         driver.get("https://www.techproeducation.com");
