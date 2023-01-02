@@ -1,4 +1,4 @@
-package day04_Maven;
+package can_Hoca;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;

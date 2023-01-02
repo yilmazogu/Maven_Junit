@@ -1,4 +1,4 @@
-package day05_JUnit;
+package can_Hoca;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;

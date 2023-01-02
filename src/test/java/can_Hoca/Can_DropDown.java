@@ -1,4 +1,4 @@
-package day08;
+package can_Hoca;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;
