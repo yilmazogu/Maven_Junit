@@ -63,6 +63,7 @@ public class Can_Alert_01 {
 
         //"Alert with Textbox" butonuna tıklayın ve "click the button to demonstrate the prompt box " butonuna tıklayın.
         driver.findElement(By.xpath("//*[@href='#Textbox']")).click();
+        Thread.sleep(3000);
         driver.findElement(By.xpath("//*[@class='btn btn-info']")).click();
         Thread.sleep(3000);
 
