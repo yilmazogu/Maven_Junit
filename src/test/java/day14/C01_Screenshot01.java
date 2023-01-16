@@ -14,7 +14,7 @@ import java.util.Date;
 
         //Ekran goruntusu alma:
         //getScreenShotAs metotu ile alinir. Bu metot Selenium dan gelir
-       // getScreenshotAs metotu TakesScreenshot api indan gelir
+        //getScreenshotAs metotu TakesScreenshot api indan gelir
         //Selenium 4 den itibaren 2 farklı sekilde ekran goruntusu alınabilir: Tum Sayfa, Özel element
         //Olusturmus oldugumuz ReusableMetot yardimizya ister tum sayfanin, istersem belirli bir elementin ekran goruntusunu kolaylıkla alabilirim
         //Extent Reports :
@@ -23,7 +23,7 @@ import java.util.Date;
         //3 class kullandık
         //ExtentReports -> sablonu olusturu
         //ExtentHTMLReporter -> sablonu projeye ekler
-       // ExtentTest -> raporlama islemini yapar. Loglari rapora yazdırir.
+        // ExtentTest -> raporlama islemini yapar. Loglari rapora yazdırir.
 public class C01_Screenshot01 extends TestBase {
     /*
     Selenium tun ekran goruntusu nasil alinir?

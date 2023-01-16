@@ -26,6 +26,11 @@ public class C02_WriteExcel {
 //        NUFUS YAZ
         cell3.setCellValue("NUFUS");//!!!!!
 
+//        2. satir 3. sutuna 450000
+        sheet1.getRow(1).createCell(2).setCellValue("450000");
+
+//        3. satir 3. sutuna 350000
+        sheet1.getRow(2).createCell(2).setCellValue("350000");
 //        KAYDET: KAYIT ISLEMI FILE OUTPUT STREAM ILE YAPILIR
         FileOutputStream fileOutputStream = new FileOutputStream(path);
         workbook.write(fileOutputStream);
